@@ -88,7 +88,7 @@ CONTIKI_FILES = [
 #          See e.g. http://stackoverflow.com/questions/27818056/contiki-os-rom-partition
 #                   http://lists.cetic.be/pipermail/6lbr-dev/2015-April/000478.html
 #
-DEBUG_FILES = ['rpl-icmp6.c']
+DEBUG_FILES = ['rpl/rpl-icmp6.c']
 
 # simulation default parameters
 MIN_DIST_BETWEEN_MOTES = 20.0

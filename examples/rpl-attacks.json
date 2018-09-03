@@ -52,7 +52,7 @@ Available Malicious mote types :
       "comment-2": "By looking at the power consumption, one can ascertain that this attack enjoys a certain efficiency on the whole network as it triggers lots of messages because of the global repair mechanism."
     },
     "malicious": {
-      "building-blocks": ["increased-version"]
+      "building-blocks": ["version-number"]
     }
   },
   "blackhole-attack": {
@@ -66,7 +66,7 @@ Available Malicious mote types :
       "sensor": "echo"
     },
     "malicious": {
-      "building-blocks": ["decreased-rank"] // "drop-messages" still missing...
+      "building-blocks": ["sinkhole", "dont-forward-uip6", "drop-udp"] 
     }
   }
 }
